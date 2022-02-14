@@ -3,7 +3,8 @@
 struct DeviceOption {
     unsigned char boot;
     unsigned char interrupt;
-    unsigned char option = boot + interrupt;
+    unsigned char option = ; 
+    option = boot + interrupt;
 };
 
 int main()
